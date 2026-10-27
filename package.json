@@ -1,0 +1,19 @@
+{
+  "name": "study-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Учебный сайт на Markdown: сборка в _site и проверка страниц",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test scripts/test.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "marked": "4.0.9"
+  },
+  "devDependencies": {
+    "ip": "2.0.1"
+  }
+}
